@@ -7,3 +7,5 @@ Replicating a cmock issue with projects that have time_t typed variables.
 3. Modify the project.xml to include inline function mocks.
 4. Run the ceedling command.
 5. Build fails with the following error message:  **error: unknown type name 'time_t'; did you mean 'size_t'**
+
+Note that the build will still fail after switching back to excluding the in line functions unless the build folder is completely deleted before running ceedling again.
