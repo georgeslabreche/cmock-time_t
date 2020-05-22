@@ -1,5 +1,5 @@
 # cmock-time_t
-Replicating a cmock issue with projects that have time_t typed variables.
+Replicating a cmock issue with projects that have time_t typed variables. Issue was raised [here](http://www.throwtheswitch.org/forums?place=msg%2Fthrowtheswitch%2FMEyopYARV98%2FV1EJAoeEAwAJ).
 
 ## Steps
 1. Clone the project and run the ceedling command.
